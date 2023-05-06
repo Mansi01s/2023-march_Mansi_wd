@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-element</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        p{
+            color: black;
+        }
+        ul{
+            background-color: lightslategray;
+            text-align: center;
+        }
+        ul li{
+            list-style: none;
+            display: inline;
+            color: #fff;
+            padding: 60px;
+        }
+        li ::after{
+            content: '';
+            margin-left: 15px;
+            color: blue;
+            border: 1px solid black;
+        }
+        div::before{
+            content: '';
+            border: 3px solid deeppink;
+        }
+        p::first-letter{
+            font-size: 40px;
+        }
+        p::first-line{
+            background-color: lightgreen;
+        }
+        ::selection{
+            color: blue;
+            background: lightblue;
+        }
+        p::selection{
+            background: royalblue;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li class="fa fa-home">Home</li>
+            <li class="fa fa-contact">Contact-Us</li>
+            <li>About-US</li>
+            <li class="fa fa-lock">Sign UP</li>
+        </ul>
+    </header>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed esse soluta accusamus laborum, quaerat animi nemo saepe adipisci 
+        debitis doloribus. Officia mollitia hic nemo aspernatur maiores enim, quam deserunt ab dolores vel perferendis iure molestias corrupti debitis sequi minima, impedit totam eaque! Minus sit enim molestias, nostrum mollitia modi inventore.</p>
+    <div>Mansi Savaliya</div>
+</body>
+</html>
