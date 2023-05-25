@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que-10</title>
+</head>
+<body>
+    <hr style="height:2px;background-color:black">
+    <p><b>Quetion 10:-How can we club two or more rows or columns into a single row or column in an HTML table?</b></p>
+    <p><b>Ans:-</b>Club two or more table cells in a column using the colspan attribute in a &lt;td&gt; HTML tag , To merge 
+            two or more row cells, use the rowspan attribute.</p>
+    <P><u><b>Example:-</u>&ensp; Colspan</b></P>
+    <table style="border-collapse: collapse;" cellpadding="5px" border="3px solid black">
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+              </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>3000</td>
+              </tr>
+              <tr>
+                <td>February</td>
+                <td>2000</td>
+              </tr>
+              <tr>
+                <td>March</td>
+                <td>2500</td>
+              </tr>
+              <tr>
+              <tr>
+                <td colspan="3"><center>Total: 7500</center></td>
+              </tr>
+        </tbody>
+    </table>
+    <P><u><b>Example:-</u>&nbsp;&nbsp;Rowspan</b></P>
+    <table style="border-collapse: collapse;" border="3px solid black" cellpadding="7px">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Food Name</th>
+                <th>Price</th>
+                <th>Quenty</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Watch</td>
+                <td>2500</td>
+                <td rowspan="2">1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Shoes</td>
+                <td>2999</td>
+                <!--<td>1</td>-->
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Perfume</td>
+                <td>999</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr style="height:2px;background-color:black">
+</body>
+</html>
