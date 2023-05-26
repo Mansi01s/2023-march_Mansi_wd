@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline-Block</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        ul{
+            height: 70px;
+            width: auto;
+            background-color: darkgrey;
+            text-align: center;
+            line-height: 70px;
+        }
+        ul li{
+            display: inline-block;
+            list-style: none;
+            margin: 3px;
+            padding: 0px 50px;      
+        }
+        ul li a{
+            color: crimson;
+            text-decoration: none;
+            font-size: 20px;
+            transition: 1s;
+            padding: 10px;
+        }
+        ul li a:hover{
+            text-decoration: underline;
+            text-decoration-color: chartreuse;
+            text-decoration-thickness: 3px;
+        }
+        .slider{
+            height: 500px;
+            width: auto;
+        }
+        .content{
+            height: 700px;
+            width: 100%;
+            background-color: lightsalmon;
+            margin: 0;
+        }
+        .content .section{
+            height: 100%;
+            border: 1px solid black;
+            float: left;
+        }
+        .content .leftside{
+            width: 20%;
+            background-color: aquamarine;
+            /* display: inline; */
+        }
+        .content .main_content{
+            width: 60%;
+            background-color: lightgreen;
+        }
+        .content .rightside{
+            width: 20%;
+            background-color: seagreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JAVASRCIPT</a></li>
+            <li><a href="#">BOOTSTRAP</a></li>
+        </ul>
+    </div>
+
+    <div class="slider">
+        <img src="https://jssors8.azureedge.net/demos/image-slider/img/px-fun-man-person-2361598-image.jpg" alt="Slider" height="500px" width="100%">
+    </div>
+
+    <div class="content">
+        <div class="section leftside"></div>
+        <div class="section main_content"></div>
+        <div class="section rightside"></div>
+    </div>
+</body>
+</html>
