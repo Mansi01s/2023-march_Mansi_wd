@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scale</title>
+    <title>Skew</title>
     <style>
         .box{
-            height: 250px;
-            width: 250px;
+            height: 150px;
+            width: 150px;
             background-color: rgb(173, 216, 230);
             border: 3px solid blue;
             margin: 25px auto;
         }
         .scale{
             transition: 1s;
+            transform: skew(120deg, 50deg);
         }
         .scale:hover{
             background-color: rgba(255, 182, 193, 0.5);
@@ -24,6 +25,6 @@
 </head>
 <body>
     <div class="box original">Original</div>
-    <div class="box scale">Scale</div>
+    <div class="box scale">Skew</div>
 </body>
 </html>
