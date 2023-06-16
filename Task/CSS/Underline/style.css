@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 70px;
+    width: auto;
+    background-color: black;
+    text-align: center;
+    line-height: 70px;position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    margin: 5px;
+    text-transform: uppercase;
+    color: #111;
+    position: relative;
+    transition: 2s;
+    color: white;
+}
+header nav ul li a::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    bottom: -10px;
+    left: 0;
+    background: lightpink;
+    transition: 2s;
+}
+
+header nav ul li a:hover::after{
+    width: 100%;
+}
+.slider{
+    height: 500px;
+    width: auto;
+}
+.content{
+    height: 1000px;
+    width: 100%;
+    background-color: lightsalmon;
+    margin: 0;
+}
+.content .section{
+    height: 100%;
+    border: 1px solid black;
+    float: left;
+}
+.content .leftside{
+    width: 20%;
+    background-color: aquamarine;
+    display: inline;
+} 
+.content .main_content{
+    width: 60%;
+    background-color: lightpink;
+}
+.content .main_content .img{
+    float: left;
+    width: 40%;
+}
+.content .main_content .info{
+    float: left;
+    width: 60%;
+}
+.content .rightside{
+    width: 20%;
+    background-color: skyblue;
+}
+.content .i2{
+    clear: both;
+}
