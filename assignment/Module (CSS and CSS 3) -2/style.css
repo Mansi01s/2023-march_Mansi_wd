@@ -1,0 +1,162 @@
+div{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(140deg, #EADEDB 0%, #d397c1 50%, #cce05e 75%);
+    margin: 2px;
+}
+
+.data table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+
+/* que-5 */
+.abc{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    padding-top: 100px;
+    background: linear-gradient(lightyellow, yellow, orange, red);
+    opacity: 0.5;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+
+/* que-6 */
+.box{
+    height: 500px;
+    width: 96%;
+    margin-left: 35px;
+}
+.box .a{
+height: 150px;
+width: 24%;
+float: left;
+background-color: aqua;
+border: 3px solid black;
+}
+.box .b{
+height: 150px;
+width: 24%;
+float: left;
+background-color: #fff;
+border: 3px solid black;
+}
+.box .c{
+height: 150px;
+width: 24%;
+float: left;
+background: linear-gradient(lightblue, skyblue, blue, navy);
+border: 3px solid black;
+}
+.box .d{
+height: 150px;
+width: 24%;
+float: left;
+background: radial-gradient(lightcoral, coral, lightpink, pink);
+border: 3px solid black;
+}
+.box .e{
+height: 150px;
+width: 24%;
+float: left;
+clear: both;
+background: rgb(120, 100, 150);
+border: 3px solid black;
+}
+.box .f{
+height: 150px;
+width: 24%;
+float: left;
+background: rgba(25, 190, 100, 0.5);
+border: 3px solid black;
+}
+.box .g{
+height: 150px;
+width: 24%;
+float: left;
+background: hsl(255, 20%, 75%);
+border: 3px solid black;
+}
+.box .h{
+height: 150px;
+width: 24%;
+float: left;
+background: hsla(50, 25%, 65%, 0.5);
+border: 3px solid black;
+}
+
+
+/* que-7 */
+.container{
+    height: 800px;
+    width: auto;
+}
+.container .i{
+height: 380px;
+width: 600px;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTunpgIOHeS7TIr_MpJkczhUr_aSiwiZac0PA&usqp=CAU);
+background-repeat: repeat;
+float: left;
+}
+.j{
+height: 400px;
+width: 600px;
+color: white;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDPYwvBW4rWtt5WP42a0fivdLcnX7zQY-9eQ&usqp=CAU);
+background-repeat: repeat-x;
+float: right;
+}
+.k{
+height: 400px;
+width: 600px;
+background-image: url(https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/lovely-morning-dance-fauzan-maududdin.jpg);
+background-repeat: repeat-y;
+float: left;
+clear: right;
+}
+.l{
+height: 400px;
+width: 600px;
+background-image: url(https://static6.depositphotos.com/1156423/649/i/450/depositphotos_6498916-stock-photo-butterflies-with-flowers.jpg);
+background-repeat: no-repeat;
+float: right;
+}
+
+
+/* que-8 */
+.item{
+    height: 1000px;
+    background: linear-gradient(140deg, #EADEDB 0%, #d397c1 50%, #cce05e 75%);
+}
+.xyz{
+    background-image: url(https://www.myanmartours.net/userfiles/images/yangshuo-china.jpg);
+    background-repeat: no-repeat;
+    background-position: 300px 50px;
+}
+
+/* Que-9 */
+.item-1{
+    height: 1000px;
+    background: linear-gradient(140deg, #EADEDB 0%, #d397c1 50%, #cce05e 75%);
+}
+
+/* que-10 */
+.m{
+    height: 150px;
+    width: 40%;
+    color: aliceblue;
+    margin-left: 50px;
+    padding: 50px;
+}
+
+/* que-11 */
+.s{
+    height: 250px;
+    width: 800px;
+    background: lightcyan;
+    margin-top: 50px;
+}
