@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassList</title>
+    <style>
+        .m{
+            height: 300px;
+            width: 500px;
+            background-color: cornflowerblue;
+            border: 3px solid black;
+            border-radius: 25%;
+            margin: 50px 150px;
+        }
+    </style>
+</head>
+<body>
+    <div id="s1"></div>
+    <p id="para"></p>
+    <button onclick="addClass()">AddClass</button>
+    <button ondblclick="removeClass()">RemoveClass</button>
+    <button onmouseover="mouseover()">MouseOver</button>
+    <button onmouseleave="mouseout()">MouseOut</button>
+
+    <script>
+        let d = document.getElementById('s1');
+        let p = document.getElementById('para');
+        function addClass(){
+            d.classList.add('m');
+        }
+        function removeClass(){
+            d.classList.remove('m');
+        }
+        function mouseover(){
+            p.innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quisquam ipsa exercitationem eaque dolor qui quo quaerat. Ipsa aliquam totam, quibusdam velit beatae quae, dignissimos, dolores facilis quo sit neque.';
+        }
+        function mouseout(){
+            p.innerHTML = '';
+        }
+    </script>
+</body>
+</html>
