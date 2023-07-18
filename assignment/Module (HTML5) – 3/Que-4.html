@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que-4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <p><b>Quetion 4:- Canvas and SVG tags</b></p>
+        <p><b>Ans:-</b> SVG and Canvas:</p>
+        <p>
+            <b>SVG tag:-</b>
+            <dd>(1) SVG Stands for Scalable Vector Graphics.</dd>
+            <dd>(2) SVG is Vector based Graphics.</dd>
+            <dd>(3) SVG useful for define boxes, circles, text.</dd>
+        </p>
+        <p><b><u>Syntax</u>:</b>
+            <dd>&lt;svg width=" " height=" " style="border: "&gt; <br>
+               &emsp; &lt;rect height=" " width=" " x=" " y=" " stroke=" " stroke-width=" " fill=" "&gt; &lt;/rect&gt;
+             <br>&lt;/svg&gt;</dd>
+        </p>
+        <p><b><u>Example</u>:</b></p>
+        <svg width="90" height="90" style="border: 1px solid black;">
+            <circle cx="50" cy="50" r="20" stroke="orange" stroke-width="5" fill="yellow"></circle>
+          </svg>
+          <p>
+            <b>Canvas tag:-</b>
+            <dd>(1) Canvas is Raster based Graphics.</dd>
+            <dd>(2) Canvas used to draw Graphics via javascript.</dd>
+            <dd>(3) Canvas tag: &lt;canvas&gt; &lt;/canvas&gt;</dd>
+        </p>
+        <p><b><u>Example</u>:</b></p>
+        <canvas height="70px" width="100px" style=" border: 1px solid black;" id="can"></canvas>
+    
+        <script>
+            var can = document.getElementById('can');
+            var ct = can.getContext("2d");
+            ct.beginPath();
+            ct.rect(10,10,30,40);
+            ct.stroke();
+            ct.fillStyle = "pink";
+            ct.fill();
+        </script>
+    </div>
+</body>
+</html>
