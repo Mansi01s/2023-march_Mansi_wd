@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic</title>
+</head>
+<body>
+    <h1>Arithmetic Operator</h1>
+    <pre>
+        (+) -> Addition
+        (-) -> Substraction
+        (*) -> Multiplicaton
+        (/) -> Divison
+        (%) -> Modulo(Return reminder)
+        (++) -> Increment/ Unary (increase by 1)
+        (--) -> Decrement/ Unary (decrease by 1)
+    </pre>
+    <p></p>
+    <script>
+        // var a;
+        // var b;
+        function fun(a,b)
+        {
+            var para = document.getElementsByTagName('p');
+            console.log(para);
+            // para.innerHTML = a+b;
+            document.write("Answer is : " +b%a)
+            // document.write("Answer is : " +b*a)
+        }
+        fun(3,50); //Call Function with parameter
+        let value = parseFloat(prompt('Enter value:'));
+        //  document.write(typeof(value));
+    </script>
+</body>
+</html>
