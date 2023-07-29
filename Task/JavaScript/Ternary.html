@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ternory</title>
+</head>
+
+<body>
+
+    Enter Your Age :
+    <input type="text" name="" id="inp" value="">
+    <button type="button" onclick="check()">check</button>
+    <script>
+        function check() {
+            let inp = parseInt(document.getElementById("inp").value);
+            document.write(inp);
+
+            let age = (inp >= 18) ? ("Congratulation, you are eligible for vote.") : ("Sorry, you aren't eligible");
+            document.write("<br>");
+            document.write(age);
+        }
+    </script>
+</body>
+
+</html>
