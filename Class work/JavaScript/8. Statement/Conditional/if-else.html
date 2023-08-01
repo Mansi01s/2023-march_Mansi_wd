@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if-else</title>
+</head>
+<body>
+    <h1>If-Else</h1>
+    Enter your age: <input type="text" name="" id="inp" value="">
+    <button type="button" onclick="check()">Check</button>
+    <script>
+        function check(){
+            let inp = parseInt(document.getElementById('inp').value);
+            console.log(inp);
+            if(inp >= 18)
+            {
+                alert('Congratulation, you are eligible for vote.');
+            }
+            else{
+                alert("Sorry, you aren't eligible");
+            }
+        }
+        
+    </script>
+</body>
+</html>

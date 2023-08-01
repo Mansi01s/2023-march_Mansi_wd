@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide</title>
+    <style>
+        img{
+            height: 250px;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPGFxqYHJU6ZwvTF9m8lC7Vp8PLOMReZjFGg&usqp=CAU" alt="" id="img">
+    <button onclick="change()">Change</button>
+    <script>
+        let img = document.getElementById('img');
+        function change(){
+            if(img.src == 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPGFxqYHJU6ZwvTF9m8lC7Vp8PLOMReZjFGg&usqp=CAU'){
+                img.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxo9sGAaQoMDCJlQ-zfZLbz6lXh5PauHPvgQ&usqp=CAU';
+            }
+            else if(img.src == 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxo9sGAaQoMDCJlQ-zfZLbz6lXh5PauHPvgQ&usqp=CAU'){
+                img.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTFlwRU6k036rjHqDvfw6j-PouP-DExQRodg&usqp=CAU';
+            }
+            else if(img.src == 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTFlwRU6k036rjHqDvfw6j-PouP-DExQRodg&usqp=CAU'){
+                img.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgyiwmQSOIjylZDuSkbd_cVsM-LN--6k-tyg&usqp=CAU';
+            }
+        }
+    </script>
+</body>
+</html>
