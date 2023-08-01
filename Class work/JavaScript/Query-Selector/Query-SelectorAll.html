@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query-SelectorAll</title>
+</head>
+<body>
+    <h1>Query-SelectorAll</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, iusto.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, iusto.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, iusto.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, iusto.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, iusto.</p>
+
+    <script>
+        var p, i;
+        p = document.querySelectorAll('p');
+        for(i = 0; i < p.length; i++)
+        {
+            p[i].style.color = 'lightgreen';
+            p[i].style.background = 'black';
+            p[i].style.fontSize = 'large';
+            p[i].style.paddingLeft = '55px';
+        }
+    </script>
+</body>
+</html>
