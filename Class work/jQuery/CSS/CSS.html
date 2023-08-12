@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+</head>
+<body>
+    <div style="background: cornflowerblue;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores magnam eaque reiciendis quod est velit ratione. Accusantium rerum quo asperiores.</div>
+    <button>Click Me</button>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('button').click(function(){
+                $('div').fadeToggle(1500);
+            });
+        });
+    </script>
+</body>
+</html>
