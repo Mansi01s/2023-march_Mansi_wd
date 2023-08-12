@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show-Hide</title>
+    <style>
+        .show{
+            height: 200px;
+            width: 250px;
+            background-color: palevioletred;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="show"></div>
+    <button type="button" onclick="sho()">Show</button>
+    <div class="hide"></div>
+
+    <script>
+        var show = document.querySelector('.show');
+        function sho()
+        {
+            show.style.display = 'block'
+        }
+    </script>
+</body>
+</html>
