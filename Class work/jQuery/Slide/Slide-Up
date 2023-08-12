@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide-Up</title>
+    <style>
+        div{
+            height: 250px;
+            width: 250px;
+            background-color: deeppink;
+            border: 3px solid darkgreen;
+            display: none;
+            margin:200px 500px;
+        }
+        button{
+            border-radius: 15px;
+            padding: 7px 10px;
+        }
+    </style>
+</head>
+<body>
+    <button>Click Me</button>
+    <div></div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $('div').toggle(2500);
+            });
+            $('div').click(function(){
+                $('this').stop();
+            });
+        });
+    </script>
+</body>
+</html>
