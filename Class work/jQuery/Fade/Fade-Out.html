@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fade-Out</title>
+</head>
+<body>
+    <div style="border: 3px solid green; background: lightpink;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, sunt ducimus! Nam quis optio magni. Magnam earum totam tenetur excepturi?</div>
+    <!-- <button>Click Me</button> -->
+    <button class="fad">Click Me</button>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.fad').click(function(){
+                $('div').fadeOut(1700);
+            });
+        });
+    </script>
+</body>
+</html>
