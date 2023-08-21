@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(161, 213, 246);
+}
+.heading{
+    font-size: 37px;
+}
+.box{
+    margin: 75px 0px 0px 200px;
+}
+button{
+    padding: 7px 25px;
+    border-radius: 15px;
+    border-style: none;
+    margin: 10px;
+}
